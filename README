@@ -1,0 +1,15 @@
+A generator for a Rails application that uses facebook oauth for it's user accounts.
+
+Basic usage to get up and running:
+
+rails new MyNewApp
+cd MyNewApp
+mkdir lib/generators/
+git clone git@github.com:jhubert/facebook-oauth-generator.git ./lib/generators/facebook_oauth
+rails g facebook_oauth
+rake db:migrate
+rails server
+
+In order to actually use it to connect to facebook, you will have to put your facebook application details in the following file:
+
+config/facebook.yml
