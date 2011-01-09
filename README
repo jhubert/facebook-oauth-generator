@@ -13,3 +13,5 @@ rails server
 In order to actually use it to connect to facebook, you will have to put your facebook application details in the following file:
 
 config/facebook.yml
+
+Also, I'm aware that a patch isn't the best way to go about this. I plan on building a full generator at some point, but this was all I had time for today. If you want to take on the task of doing it properly, then by all means. :)
